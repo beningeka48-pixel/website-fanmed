@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #610303 0%, #0a0a0a 50%, #180240 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: #1a1a1a; /* hitam agak terang */
+  border: 2px solid red;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3); /* glow merah */
+  color: white;
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid red;
+  border-radius: 6px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.switch {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.btn-switch {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  border: 2px solid red;
+  color: red;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-switch:hover {
+  background-color: red;
+  color: white;
+}
+
+.font-1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.font-2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
